@@ -1,0 +1,14 @@
+{
+  "name": "cd-546-lab-3",
+  "version": "1.0.0",
+  "description": "asynchronous programming in JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Aaron Vo 10429421",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

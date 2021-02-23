@@ -13,3 +13,18 @@ console.log(lab1.questionFour(25000, 3.11, 5));
 // should return and output: 450.44
 
 
+try{
+
+    lab1.sayHello('Patrick');
+  
+    lab1.sayHello ();
+  
+    lab1.sayHello (1,2);
+  
+    console.log(lab1.sayHello ('Patrick', 'Hill'));
+  
+  }catch(e){
+  
+    console.log(e);
+  
+  }
