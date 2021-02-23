@@ -7,13 +7,13 @@ async function getPeople(){
 
 function checkId(number) {
     if (!number) {
-        throw "id parameter must be given"
+        throw "parameter must be given"
     }
     if (isNaN(number)) {
-        throw "id must be a number"
+        throw "parameter must be a number"
     }
     if (number > 1000 || number < 0) {
-        throw "id not within range"
+        throw "parameter not within range"
     }
 }
 
