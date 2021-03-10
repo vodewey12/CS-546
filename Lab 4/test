@@ -1,0 +1,651 @@
+
+> cs-546-mongodb@1.0.0 start C:\Users\Aaron\documents\stevens\cs-546\lab 4
+> node index.js
+
+
+Create Movie: 
+yearRelease in object info is not valid
+
+Get all movies: 
+[
+  {
+    _id: 603dc800943c94328cafe6db,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dc835d8c24f09d4538ce9,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dc84e3080eb1ebceb9765,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dc8e1249690349c39923d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dc96807a7b13ff8b4fc44,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dca2d045f8e11cc5f57dd,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dca40ab0e8e44a04230e0,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dcaa91c2fdd476c9f022d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dcab7d4b951487891c863,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dcae6abb6bd03b0e28498,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dccd1eef91e4d5c3eb44e,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dce0c17c4d53f08851fad,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dce1c120a5a32c88ad59d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dcec00d8f3d0258fc5c39,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dced203e37f4428ee2c7f,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dcef6213b8444dceda314,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd116d8740a187c48100d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd18ad11be60688cad53f,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd1a184ffdd344838c7ff,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd1deffdfaf3ea44caa97,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd1f9e3ec9304084541aa,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd2e2e6dff44cecb692ed,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd3ce641fa530b41fc181,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd3ed2ddb044cd07390f7,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd43d9edd064078cadf2d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd456fe27c31214178749,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd4ebb44df64160159226,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd50ca4b86641ccaacda7,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd546228e9f3c089dfa44,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd565aa2ba048a883de49,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd5b340de82012c8e7da7,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd5c47b7fdc4fb4d4dc6d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd5e58be11d3504d1e643,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd5ffe738f02738a9a554,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd69078cb6f3f10ddf0a3,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd6a339e4774d88a24e66,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd71368d3962bbcf80948,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd750f5a8bb46c426d6d1,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd79254af3823e891cc83,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd7ce0721d61118cc8433,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd7e4581d4634501ba471,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603dd8111e907f051c622a3f,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed290e2e2045530d79ead,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed2d53d165924305542ad,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed682531c18289c774030,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed6d9ebf88e26e82157ec,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed72d471e5b4810858273,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed7df9151d0218c1ac6c5,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed7f5da83d0268487502d,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed801f3c47a0f30e4f2da,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed83283cdcc4620bad071,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed88fd67f5c1268d81839,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed8a365eee04fe87773e5,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed8b3e912b55b602eee43,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed8e5185ead3c486d9dae,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed903b99ac936148b27e1,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603ed922cb289938e89a23f6,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603edaf5b0407619cc1ceb5a,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603edbecfb9e0b3654843159,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603edc03df3c072368cfbd75,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603edc10fc70ab2a0c3f9251,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603edc2396a8745a94814c08,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  },
+  {
+    _id: 603edc3e57ea57564c97f2f5,
+    title: 'Bill and Ted Face the Music',
+    plot: "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+    rating: 'PG-13',
+    runtime: '1hr 31min',
+    genre: 'Comedy',
+    cast: [ 'Keanu Reeves', 'Alex Winter' ],
+    info: { director: 'Dean Parisot', yearReleased: 2020 }
+  }
+]
+
+Get movies based on ID: 
+Cannot find document with this Id
+
+Remove movies based on ID: 
+Cannot find document with this Id
+
+Rename movies based on ID: 
+title parameter must be defined
+Terminate batch job (Y/N)? 
