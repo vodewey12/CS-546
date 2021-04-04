@@ -1,0 +1,20 @@
+<title>Shows Found</title>
+<h1>Shows Found</h1>
+<h2>Looking for: {{term}}</h2>
+{{#if results.length}}
+{{#each_upto results 20}}
+
+<main>
+    <ul>
+        <li>
+            <a href="/shows/{{show.id}}">{{show.name}}</a>
+        </li>
+    </ul>
+</main>
+
+{{/each_upto}}
+{{else}}
+<p>We're sorry, but no results were found for {{term}}.</p>
+{{/if}}
+
+<a href="/search">Make another search</a>

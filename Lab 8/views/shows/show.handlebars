@@ -1,0 +1,30 @@
+<title>{{show.name}}</title>
+<main>
+    <div>
+        <h1>{{ show.name }}</h1>
+        <img src={{show.image.medium}}>
+        <dl>
+            <dt>Language</dt>
+            <dd>{{show.language}}</dd>
+            <dt>Genre</dt>
+            <dd>
+
+                <ul>
+                    {{#each show.genres}}
+                    <li>
+                        {{this}}
+                    </li>
+                    {{/each}}
+                </ul>
+
+            </dd>
+            <dt>Average Rating</dt>
+            <dd>{{show.rating.average}}</dd>
+            <dt>Network</dt>
+            <dd>{{show.network.name}}</dd>
+            <dt>Summary</dt>
+            <dd>{{show.summary}}</dd>
+
+        </dl>
+    </div>
+</main>

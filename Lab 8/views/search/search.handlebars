@@ -1,0 +1,20 @@
+<title>Search</title>
+<main>
+    <h1>Search</h1>
+    <form action="/search" method="POST" class="search-form">
+        <label>
+            <input type="text" name="searchTerm" placeholder="Search for shows" value="{{shows.searchTerm}}"
+                class="search-bar-input" />
+        </label>
+        <button class="search-button" type="submit">Search</button>
+    </form>
+    {{#if hasErrors}}
+    <ul class="error-list">
+        {{#each errors}}
+        <li>
+            {{this}}
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+</main>
