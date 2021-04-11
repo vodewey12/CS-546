@@ -1,0 +1,124 @@
+html,
+body {
+    font-size: 14pt;
+}
+
+body {
+    margin: 0;
+
+    background: #dedede;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    overflow: hidden;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+.header {
+    padding: 10px 16px;
+    background: rgb(255, 89, 89);
+    color: #f1f1f1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 89, 89);
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.input-form {
+    margin-top: 20px;
+}
+
+.submit-button {
+
+    margin-top: 8px;
+    background: rgb(255, 89, 89);
+    font-size: 17px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.show-fib {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.is-prime {
+    color: #FF3D00
+}
+
+.not-prime {
+    color: #00E676
+}
+
+ul {
+    margin: 2px;
+    padding: 0;
+}
+
+.error-list li {
+    color: #ff0000;
+}
+
+ul li {
+
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+}

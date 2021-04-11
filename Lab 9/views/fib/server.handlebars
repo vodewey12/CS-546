@@ -1,0 +1,31 @@
+<form method="POST" class="input-form">
+    <label for="index">Enter you Fibonnaci Index</label>
+    <input name="index" type="number" value="{{index}}">
+    <button class="submit-button" type="submit">Submit</button>
+</form>
+
+{{#if result }}
+<div class="show-fib">
+    {{#if prime}}
+    <a class="is-prime">The Fibonacci of {{index}} is {{ result }}.</a>
+    {{else}}
+    <a class="not-prime">The Fibonacci of {{index}} is {{ result }}.</a>
+    {{/if}}
+
+</div>
+{{/if}}
+{{#if hasErrors}}
+<ul class="error-list">
+    {{#each errors}}
+    <li>
+        {{this}}
+    </li>
+    {{/each}}
+</ul>
+{{/if}}
+
+{{#each results}}
+<ul>
+    <li class={{this.class}}>The Fibonnaci of {{this.index}} is {{this.fib}}</li>
+</ul>
+{{/each}}
