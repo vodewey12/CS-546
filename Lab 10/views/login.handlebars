@@ -1,0 +1,18 @@
+<main>
+    <div class="card">
+        <form id="login-form" method="POST" action="/login" class="input-form">
+            <label for="username"><b>Username</b></label>
+            <input id="username" type="text" placeholder="Enter Username" name="username" required>
+
+            <label for="password"><b>Password</b></label>
+            <input id="password" type="password" placeholder="Enter Password" name="password" required>
+
+            <button class="btn" type="submit">Login</button>
+
+        </form>
+        {{#if message}}
+        <h2 class="invalid-login">{{message}}</h2>
+        {{/if}}
+        <br>
+    </div>
+</main>

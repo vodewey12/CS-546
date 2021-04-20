@@ -1,0 +1,106 @@
+html,
+body {
+    font-size: 14pt;
+}
+
+body {
+    margin: 0;
+
+    background: #dedede;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    overflow: hidden;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+.header {
+    padding: 10px 16px;
+    background: rgb(255, 89, 89);
+    color: #f1f1f1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 89, 89);
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, .12);
+    box-sizing: border-box;
+}
+
+.btn {
+
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 89, 89);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.invalid-login {
+    color: red
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 2px 16px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
