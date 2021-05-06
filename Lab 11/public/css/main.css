@@ -1,0 +1,114 @@
+html,
+body {
+    font-size: 14pt;
+}
+
+body {
+    margin: 0;
+
+    background: #dedede;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    overflow: hidden;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+.header {
+    padding: 10px 16px;
+    background: rgb(255, 89, 89);
+    color: #f1f1f1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 89, 89);
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+.error-list li {
+    color: #ff0000;
+}
+
+.search-bar-input {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+
+
+.search-button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+
+    cursor: pointer;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+dt {
+    grid-column-start: 1;
+}
+
+dd {
+    grid-column-start: 2;
+}
